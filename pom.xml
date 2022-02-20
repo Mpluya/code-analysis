@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>8</java.version>
-		<sonar.host.url>http://localhost:8080</sonar.host.url>
+		<sonar.host.url>http://127.0.0.1:8080</sonar.host.url>
 	  	<sonar.login>df56355fe8c56a7f0f1b605d14945d19fe39c0b9</sonar.login>
 	   	<sonar.projectKey>${project.artifactId}</sonar.projectKey>
 	</properties>
