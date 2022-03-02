@@ -21,11 +21,11 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        assertEquals("custom supply chain attempt 1", controller.index());
+        assertEquals("custom supply chain attempt 1.5", controller.index());
 
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("custom supply chain attempt 1"));
+            .andExpect(content().string("custom supply chain attempt 1.5"));
     }
 }
